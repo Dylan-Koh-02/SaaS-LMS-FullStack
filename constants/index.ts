@@ -1,19 +1,19 @@
 export const subjects = [
-  "programming",
-  "algorithms",
-  "machine learning",
+  "Web Development",
+  "backend",
+  "AI/ML",
   "databases",
   "networking",
   "software engineering",
 ];
 
 export const subjectsColors = {
-  science: "#E5D0FF",
-  maths: "#FFDA6E",
-  language: "#BDE7FF",
-  coding: "#FFC8E4",
-  history: "#FFECC8",
-  economics: "#C8FFDF",
+  softwareEngineering: "#E5D0FF",
+  algorithms: "#FFDA6E",
+  'AI/ML': "#BDE7FF",
+  programming: "#FFC8E4",
+  networking: "#FFECC8",
+  databases: "#C8FFDF",
 };
 
 export const voices = {
