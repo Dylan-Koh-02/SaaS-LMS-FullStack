@@ -1,19 +1,21 @@
 export const subjects = [
-  "Web Development",
-  "backend",
-  "AI/ML",
-  "databases",
-  "networking",
-  "software engineering",
+  "Frontend Development",
+  "Backend Development",
+  "Algorithms",
+  "AI",
+  "Programming",
+  "Software Engineering",
+  'Databases',
 ];
 
 export const subjectsColors = {
-  softwareEngineering: "#E5D0FF",
-  algorithms: "#FFDA6E",
-  'AI/ML': "#BDE7FF",
-  programming: "#FFC8E4",
-  networking: "#FFECC8",
-  databases: "#C8FFDF",
+  'Software Engineering': "#E4F16F",
+  'Algorithms': "#FFDA6E",
+  "AI": "#BDE7FF",
+  'Programming': "#e5d0ff",
+  'Databases': "#C8FFDF",
+  'Frontend Development': "#ffda6e",
+  'Backend Development': "#DBE7FF",
 };
 
 export const voices = {
@@ -23,51 +25,51 @@ export const voices = {
 
 export const recentSessions = [
   {
-    id: "1",
-    subject: "science",
+    id: "2e7c7858-527c-4a6c-bbf4-8686ef79e560",
+    subject: "Software Engineering",
+    name: "Enginuity the Architect",
+    topic: "Software Architecture and Design Patterns in Practice",
+    duration: 50,
+    color: "#E4F16F", // matches softwareEngineering
+  },
+  {
+    id: "43cfbb59-d193-42d0-8be2-079dd6009212",
+    subject: "AI",
     name: "Neura the Brainy Explorer",
-    topic: "Neural Network of the Brain",
+    topic: "Intro to Neural Networks",
     duration: 45,
-    color: "#E5D0FF",
+    color: "#BDE7FF", // matches AI/ML
   },
   {
-    id: "2",
-    subject: "maths",
-    name: "Countsy the Number Wizard",
-    topic: "Derivatives & Integrals",
+    id: "f298cc1e-4b03-4161-a33c-0be96f3e7562",
+    subject: "Backend Development",
+    name: "Servero the API Designer",
+    topic: "Building RESTful APIs",
+    duration: 35,
+    color: "#DBE7FF", // uses algorithms color as a placeholder for backend
+  },
+  {
+    id: "93a11a20-5b28-4252-b52c-29fb731e679f",
+    subject: "Databases",
+    name: "Query the Data Keeper",
+    topic: "Mastering SQL Queries and MySQL Database",
     duration: 30,
-    color: "#FFDA6E",
+    color: "#C8FFDF", // matches databases
   },
   {
-    id: "3",
-    subject: "language",
-    name: "Verba the Vocabulary Builder",
-    topic: "English Literature",
-    duration: 30,
-    color: "#BDE7FF",
+    id: "53c60c87-f299-4b38-b4be-aa97aad52f7f",
+    subject: "Frontend Development",
+    name: "Fronta the User Interface Designer",
+    topic: "React Hooks and Context",
+    duration: 40,
+    color: "#ffda6e", // uses programming color as a placeholder for frontend
   },
   {
-    id: "4",
-    subject: "coding",
-    name: "Codey the Logic Hacker",
-    topic: "Intro to If-Else Statements",
-    duration: 45,
-    color: "#FFC8E4",
-  },
-  {
-    id: "5",
-    subject: "history",
-    name: "Memo, the Memory Keeper",
-    topic: "World Wars: Causes & Consequences",
-    duration: 15,
-    color: "#FFECC8",
-  },
-  {
-    id: "6",
-    subject: "economics",
-    name: "The Market Maestro",
-    topic: "The Basics of Supply & Demand",
-    duration: 10,
-    color: "#C8FFDF",
+    id: "a9c6962c-00ed-43f5-a61e-5e2a6d92e06c",
+    subject: "Frontend Development",
+    name: "Webster the Explorer",
+    topic: "Build Foundational Knowledge about HTML5 and CSS3",
+    duration: 60,
+    color: "#ffda6e", // uses programming color as a placeholder for Web Dev
   },
 ];

@@ -14,7 +14,7 @@ import { subjects } from "@/constants";
 const SubjectFilter = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const query = searchParams.get("topic") || "";
+  const query = searchParams.get("subject") || "";
 
   const [subject, setSubject] = useState(query);
 
@@ -36,7 +36,7 @@ const SubjectFilter = () => {
   }, [subject]);
 
   return (
-    <Select onValueChange={setSubject}>
+    <Select onValueChange={setSubject} value={subject}>
       <SelectTrigger>
         <SelectValue placeholder="Subject"></SelectValue>
       </SelectTrigger>

@@ -18,18 +18,18 @@ interface CompanionsListProps {
 }
 
 const CompanionsList = ({
-  // title,
+  title,
   companions,
   classNames,
 }: CompanionsListProps) => {
   return (
     <article className={cn("companion-list", classNames)}>
-      <h2 className="font-bold text-3xl">Recent Sessions</h2>
+      <h2 className="font-bold text-3xl">{title}</h2>
       <Table>
         <TableCaption>A list of your recent sessions.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="text-lg w-2/3">Lessons</TableHead>
+            <TableHead className="text-lg w-[70%]">Lessons</TableHead>
             <TableHead className="text-lg">Subject</TableHead>
             <TableHead className="text-lg">Duration</TableHead>
           </TableRow>
@@ -52,8 +52,8 @@ const CompanionsList = ({
                       ></Image>
                     </div>
                     <div className="flex flex-col gap-2">
-                      <p className="font-bold text-2xl">{name}</p>
-                      <p className="text-lg">{topic}</p>
+                      <p className="font-bold text-2xl max-w-[500px] break-words whitespace-normal">{name}</p>
+                      <p className="text-lg max-w-[300px] break-words whitespace-normal">{topic}</p>
                     </div>
                   </div>
                 </Link>
