@@ -5,9 +5,8 @@ A modern SaaS application built with the latest full-stack technologies includin
 ## ✨ Features
 
 - 🌐 Full-stack application using Next.js 15 App Router
-- 🔐 Authentication & Authorization with Clerk
-- 💳 Payment integration with Stripe
-- 🧠 AI Integration
+- 🔐 Authentication & Authorization & Payment integration with Clerk
+- 🧠 Voice AI Integration
 - 🌈 Tailwind CSS + Shadcn UI for beautiful, responsive design
 - 🧱 Plan-based feature gating (Free vs Pro)
 - 🛠️ Clean project structure with reusable components and hooks
@@ -20,9 +19,8 @@ A modern SaaS application built with the latest full-stack technologies includin
 | TypeScript   | Type safety across the app          |
 | Tailwind CSS | Utility-first styling               |
 | Shadcn UI    | Reusable, accessible UI components  |
-| Stripe       | Subscription & payment handling     |
 | Clerk        | Authentication & user management    |
-| PostgreSQL   | Relational database                 |
+| Supabase     | Online Hosting of PostgreSQL        |
 | Vercel       | Deployment                          |
 
 ## 🚧 Getting Started
