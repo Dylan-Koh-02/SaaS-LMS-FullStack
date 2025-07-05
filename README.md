@@ -1,4 +1,4 @@
-# 🚀 Partner
+# 🚀 Converso LLM
 
 A modern SaaS application built with the latest full-stack technologies including Next.js 15, Supabase, and Clerk. This project demonstrates user authentication, subscription management, and a responsive dashboard—all designed to be production-ready.
 
@@ -22,7 +22,6 @@ A modern SaaS application built with the latest full-stack technologies includin
 | Shadcn UI    | Reusable, accessible UI components  |
 | Stripe       | Subscription & payment handling     |
 | Clerk        | Authentication & user management    |
-| Prisma       | ORM for PostgreSQL                  |
 | PostgreSQL   | Relational database                 |
 | Vercel       | Deployment                          |
 
@@ -43,9 +42,8 @@ npm install
 
 ### 3. Set Environment Variables
 
-Create a .env file and add the necessary variables:
+Create a .env file and add the necessary variables (ref. to .env.local.example)
 
-Soon to be updatedon
 
 ### 4. Run the App Locally
 
@@ -57,5 +55,3 @@ npm run dev
 
 Deploy easily on Vercel by linking your repo and setting up your environment variables.
 
-📸 Screenshots
-Soon to be updated
